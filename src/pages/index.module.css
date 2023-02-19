@@ -30,6 +30,7 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 1;
+  align-self: flex-start;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
   margin-top: var(--dl-space-space-tripleunit);
   align-items: flex-start;
@@ -794,6 +795,11 @@
 .text41 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-tripleunit);
+}
+.form {
+  width: 200px;
+  height: 100px;
+  display: flex;
 }
 @media(max-width: 991px) {
   .hero {

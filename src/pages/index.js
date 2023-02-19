@@ -31,7 +31,7 @@ const Home = (props) => {
             <h1
               className={` ${styles['text01']} ${projectStyles['heading-one']} `}
             >
-              Choose the best
+              Bello the best
             </h1>
             <span className={` ${styles['text02']} ${projectStyles['lead']} `}>
               <span>
@@ -418,6 +418,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+        <form className={styles['form']}></form>
       </section>
       <Footer></Footer>
     </div>
