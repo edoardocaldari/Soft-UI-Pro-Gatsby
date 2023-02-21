@@ -26,7 +26,7 @@ const Home = (props) => {
             <h1
               className={` ${styles['text']} ${projectStyles['heading-one']} `}
             >
-              Soft Design System.
+              bastarndo
             </h1>
             <h1
               className={` ${styles['text01']} ${projectStyles['heading-one']} `}
